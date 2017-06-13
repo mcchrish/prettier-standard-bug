@@ -1,0 +1,17 @@
+{
+  "name": "prettier-standard-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard index.js",
+    "format": "prettier-standard index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier-standard": "^5.1.0",
+    "standard": "^10.0.2"
+  }
+}
